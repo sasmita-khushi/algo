@@ -9,6 +9,7 @@ function isPalindome(str) {
 
 console.log(isPalindome("1091"));
 
+
 //another solution
 function x(str) {
   let flipStr = "";
