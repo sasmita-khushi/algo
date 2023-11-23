@@ -7,5 +7,3 @@ function getSquare(arr) {
 }
 let arr = [1, 2, , 3, 5, 6, 8, 9];
 console.log(getSquare(arr));
-
-newarr = arr.map(y(i * i));
