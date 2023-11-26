@@ -9,6 +9,7 @@ function same(arr1, arr2) {
       obj[x * x] += 1;
     }
   }
+  console.log(obj);
 
   for (let i = 0; i < arr2.length; i++) {
     let x = arr2[i];
