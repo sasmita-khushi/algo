@@ -30,3 +30,12 @@ function fibonacci(num) {
   //return arr[num-1];
 }
 console.log(fibonacci(4));
+
+function fib(n) {
+  if (n <= 2) {
+    return 1;
+  }
+
+  return fib(n - 1) + fib(n - 2);
+}
+console.log(fibonacci(4));

@@ -25,15 +25,3 @@ function recursiveRange(num) {
   return num + recursiveRange(num - 1);
 }
 //console.log(recursiveRange(6));
-
-function Fibonacci(num) {
-  let arr = [];
-  let prev = 0;
-  for (let i = 0; i <= num; i++) {
-    prev + i;
-    arr.push(i);
-    prev = i;
-  }
-  return arr;
-}
-console.log(Fibonacci(10));
