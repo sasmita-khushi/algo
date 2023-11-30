@@ -1,22 +1,11 @@
-write a function called maxSubarrSum which accepts an array of integers
-and a number called n.the function should calculate the maximum sum of n consecutive elements in the array. 
+// write a function called maxSubarrSum which accepts an array of integers
+// and a number called n.the function should calculate the maximum sum of n consecutive elements in the array.
 
-
-maxSubarrSum([1,2,5,2,8,1,5],2)//10
-maxSubarrSum([1,2,5,2,8,1,5],4)//17
-maxSubarrSum([4,2,1,6],1)//6
-maxSubarrSum([4,2,1,6,2],4)//13
-maxSubarrSum([],4)//null
-
-
-
-
-
-
-
-
-
-
+// maxSubarrSum([1,2,5,2,8,1,5],2)//10
+// maxSubarrSum([1,2,5,2,8,1,5],4)//17
+// maxSubarrSum([4,2,1,6],1)//6
+// maxSubarrSum([4,2,1,6,2],4)//13
+// maxSubarrSum([],4)//null
 
 // function maxSubarrSum(arr, n) {
 //   let maxSum = 0;

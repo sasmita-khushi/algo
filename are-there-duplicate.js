@@ -24,3 +24,5 @@ function areThereDuplicates(...arr) {
 console.log(areThereDuplicates(1, 2, 3));
 console.log(areThereDuplicates(1, 2, 2));
 console.log(areThereDuplicates("a", "b", "c", "a"));
+
+function areThereDuplicates(...arr) {}
