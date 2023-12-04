@@ -16,6 +16,7 @@
 
 function capitlize(arr) {
   if (arr.length === 0) {
+    a;
     return [];
   }
 
